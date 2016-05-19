@@ -1,0 +1,68 @@
+body {margin:0; padding:0;}
+
+.groupid {width:25%;font-size:20px;color:#FF9900;text-align:center;height:60px;line-height:60px;position:absolute; left:0; right:0;}
+.outline {width:100%;text-align:center;height:60px;line-height:60px;font-weight:bold;font-size:30px;font-family:Arial, Helvetica, sans-serif;position:absolute; left:0; right:0;}
+#date {color:#99FF00;font-size:24px;width:20%;height:60px;line-height:60px;text-indent:80%;}
+.out {color:#000000;}
+.line{color:#999999;}
+.main {height:700px;width:100% ; background-image:url(../img/intro-bg.jpg); position:absolute;}
+.bookReview{font-size:40px; color:#FFFFFF;font-family:Arial, Helvetica, sans-serif;text-align:center;padding:40px 0 10px 0;}
+.description {text-align:center;font-size: 22px; color:#FFFFFF;font-family:"Times New Roman", Times, serif;line-height:1.0em;}
+h2{text-align:center;font-size: 25px; color:#FFFFFF;font-family:"Times New Roman", Times, serif;margin:30px 0;}
+.login {position:relative;text-align:center;top:330px;}
+#register {height:30px;width:100px;color:#FFFFFF;border:hidden;}
+#reset{height:30px;width:100px;color:#FFFFFF;border:hidden;}
+#username,#mail,#password{width:250px;height:22px;background-color:transparent;color:#FFFFFF;}
+
+#text_username,#text_password ,#text_mail{font-family:Arial, Helvetica, sans-serif;color:#FFFFFF;}
+
+#text_now {color:#B39347;}
+#text_control{color:#3D78E8;}
+#text_login{color:#3C9E35;}
+div
+{
+animation:  greenPulse
+-moz-animation:  greenPulse;	/* Firefox */
+-webkit-animation:  greenPulse;	/* Safari ºÍ Chrome */
+-o-animation:  greenPulse;	/* Opera */
+}
+@-webkit-keyframes bluePulse {
+  from { background-color:#3300FF; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color:#3300FF; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color:#3300FF; -webkit-box-shadow: 0 0 9px #333; }
+}
+@-webkit-animation bluePulse {
+  from { background-color: #3300FF; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color:#3300FF; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #3300FF; -webkit-box-shadow: 0 0 9px #333; }
+}
+@-o-animation bluePulse {
+  from { background-color: #330099; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color:#3300FF; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color:#3300FF; -webkit-box-shadow: 0 0 9px #333; }
+}
+#register {
+  -webkit-animation-name: bluePulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;}
+@-webkit-keyframes orangePulse {
+  from { background-color:#FFCC00; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color:#FFCC00; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color:#FFCC00; -webkit-box-shadow: 0 0 9px #333; }
+}
+@-webkit-animation orangePulse {
+   from { background-color:#FFCC00; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color:#FFCC00; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color:#FFCC00; -webkit-box-shadow: 0 0 9px #333; }
+}
+@-o-animation orangePulse {
+  from { background-color:#FFCC00; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color:#FFCC00; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color:#FFCC00; -webkit-box-shadow: 0 0 9px #333; }
+}
+#reset {
+  -webkit-animation-name: orangePulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+.date {color:#33FFCC;}

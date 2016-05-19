@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<TITLE>result1</TITLE>
+<Script >
+var conn = new ActiveXObject("ADODB.Connection");
+conn.Open("DBQ=C:\\abc.mdb;DRIVER={Microsoft Access Driver (*.mdb)};");
+var rs = new ActiveXObject("ADODB.Recordset");
+var sql="select * from book1";
+rs.open(sql, conn);
+var html="";
+while(!rs.EOF)
+{ 
+html=rs.Fields("Date")+": "+rs.Fields("comment");
+document.write(html);
+rs.moveNext();
+document.write("<br>")
+}
+
+rs.close();
+rs = null;
+conn.close();
+conn = null;
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+<BODY background="comment/the.jpg">
+<h3>Comments Area
+</h3>
+</BODY>
+</HTML> 
